@@ -1,0 +1,13 @@
+{
+  "name": "agario",
+  "scripts": {
+    "dev": "clear && bun ./src/app/scripts.ts",
+    "build": "bun ./src/app/scripts.ts --build"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
